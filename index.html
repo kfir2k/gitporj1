@@ -10,9 +10,17 @@
 <body>
     <script>
 
-        document.onkeydown = function (e) {
-            alert('I stroke a key');
-        };
+        document.addEventListener('KeyboardEvent.ctrlKey', function () {
+            console.log('true');
+        })
+
+
+
+
+
+        // document.onkeydown = function (e) {
+        //     console.log('I stroke a key');
+        // };
 
     </script>
 </body>
